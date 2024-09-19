@@ -29,7 +29,7 @@ app.use(fileUpload({
 }));
 
 app.use("/api/v1/category", categoryRouter);
-app.use("/api/v1/category", animalRouter);
+app.use("/api/v1/animals", animalRouter);
 
 dbConnection();
 
