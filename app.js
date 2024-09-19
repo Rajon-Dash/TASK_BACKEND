@@ -3,7 +3,7 @@ import {config} from "dotenv";
 import cors from "cors";
 import cookieParser from 'cookie-parser';
 import fileUpload from "express-fileupload";
-import { dbConnection } from "./database/dbconnection.js";
+import  {dbConnection}  from "./database/dbconnection.js";
 import categoryRouter from "./router/categoryRouter.js";
 import animalRouter from "./router/animalRouter.js"
 import {errorMiddleware} from "./middlewares/errorMiddleware.js";
