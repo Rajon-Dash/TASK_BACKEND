@@ -1,5 +1,5 @@
 import express from "express";
-import  {dbConnection}  from "./database/dbconnection.js";
+import  dbConnection  from "./database/dbconnection.js";
 import {config} from "dotenv";
 import cors from "cors";
 import cookieParser from 'cookie-parser';
