@@ -8,9 +8,8 @@ This is a MERN project.
 First, clone the repository to your local machine:
 
 ```bash
-https://github.com/Rajon-Dash/Task-Frontend.git
-
-cd Task-Frontend
+https://github.com/Rajon-Dash/TASK_BACKEND.git
+cd TASK_BACKEND
 ```
 
 ## Install Dependencies
@@ -19,50 +18,22 @@ Run the following command to install the project dependencies:
 
 ```bash
 npm install
-npm install axios
+npm install cloudinary cors dotenv express express-fileupload mongoose
 ```
 
-## Install Tailwind CSS via npm
+## config file
 
-Install Tailwind CSS and its dependencies:
+```PORT = 4000
 
-```bash
-npm install -D tailwindcss postcss autoprefixer
-```
+MONGO_URL = mongodb+srv://rajoncse19:1z2y3x4w@cluster0.v653j.mongodb.net/?retryWrites=true
 
-## Create the Tailwind Configuration Files
+FRONT_END =  http://localhost:3000
 
-Generate the Tailwind configuration files:
+CLODINARY_CLOUD_NAME =dapxzmxhx
 
-```bash
-npx tailwindcss init -p
-```
+CLODINARY_API_SECRET =vMBZxG1_7nZFUkWkVsqByV5ISKc
 
-## Configure Your `tailwind.config.js` File
-
-Update your `tailwind.config.js` file as follows:
-
-```javascript
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: [
-    "./src/**/*.{html,ts}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
-```
-
-## Add Tailwind  to Your `global.css` File
-
-Include the Tailwind directives in your `src/styles.css` file:
-
-```css
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+CLODINARY_API_KEY =614873288344229
 ```
 
 ## Run the Application
@@ -73,5 +44,5 @@ Finally, run the application using the following command:
 npm run dev
 ```
 
-Now you can access your application at `http://localhost:3000/`.
+Now you can access your application at `http://localhost:4000/`.
 ```
