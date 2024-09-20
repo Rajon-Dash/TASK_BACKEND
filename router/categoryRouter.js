@@ -4,7 +4,7 @@ import { addCategory, getAllCategory } from '../controller/addCategoryController
 const router = express.Router();
 
 router.post('/add', addCategory);
-router.get('/getcategory',getAllCategory);
+router.get('/get',getAllCategory);
 
 
 
